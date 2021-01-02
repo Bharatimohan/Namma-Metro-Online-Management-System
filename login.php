@@ -11,21 +11,28 @@
   <style type="text/css">
 
         .demo-content{
-        	padding: 50px;
-        	font-size: 18px;
-        	text-align: center;
-        	background: #8eccc6;
-        	margin:50px 20em 50px 20em;
+        	padding: 170px;
+        	font-size: 20px;
+        	background: #DCEAE5;
+        	
+        	
+        }
+        .demo-content.bg-alt{
+        	background: #abb1b8;
+        }
+      	
+      	.bs-example{
+        	margin: 100px;
         }
        
         .form-horizontal .control-label{
-        	padding-top: 25px;
+        	padding-top: 100px;
         }
   </style>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">#</a>
+  <a class="navbar-brand" href="contact_us.php">Contact Us</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -39,28 +46,25 @@
         <a class="nav-link" href="login.php">Login<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Smart Card Request</a>
+        <a class="nav-link" href="smart_cardrequest.php">Smart Card Request</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Travel Info</a>
+        <a class="nav-link" href="travel_info.php">Travel Info</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Stations</a>
+        <a class="nav-link" href="stations.php">Stations</a>
       </li>
     </ul>
   </div>
 </nav>
 
 <div class = "container">
-	<section>
-		<div class="py-1">
-			<h2 class="text-center">ADMIN LOGIN</h2>
-		</div>
+	
 		<div class="demo-content">
 			<div class="row">
-				<div class="Absolute-Center is-Responsive">
 					<div id="logo-container"></div>
-					<div class="col-sm-12 col-md-10 col-md-offset-1">
+					<div class="col-sm-8 col-md-5 ">
+						<h3 class="text">Admin Login</h3>
 						<form action="php/admin_login_check.php" method="POST" id="loginForm">
 							<div class="form-group input-group">
 								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -77,17 +81,10 @@
 							</div>
 						</form>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
-<div class = "container">
-		<div class="demo-content">
-			<div class="row">
-				<div class="Absolute-Center is-Responsive">
+				
 					<div id="logo-container"></div>
-					<div class="col-sm-12 col-md-10 col-md-offset-1">
+					<div class=" col-sm-8 col-md-5 ">
+						<h3> User Login </h3>
 						<form action="php/user.php" method="POST" id="loginForm">
 							<div class="form-group input-group">
 								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -104,9 +101,13 @@
 							</div>
 						</form>
 					</div>
-				</div>
 			</div>
 		</div>
-	</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+				
+
 </body>
 </html>

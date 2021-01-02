@@ -24,16 +24,16 @@
         <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login1.php">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="smart_cardrequest.php">Smart Card Request</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Travel Info</a>
+        <a class="nav-link" href="travel_info.php">Travel Info</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Stations</a>
+        <a class="nav-link" href="stations.php">Stations</a>
       </li>
     </ul>
   </div>

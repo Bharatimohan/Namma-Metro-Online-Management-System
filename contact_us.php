@@ -12,6 +12,19 @@
   	h2.headertekst {
   text-align: center;
 	}
+  .demo-content{
+          padding: 60px;
+          font-size: 18px;
+          background: #d9d9db;
+          margin-left: 10em;
+          margin-right: 27em;
+        }
+        
+        .padding {
+          padding-left: 10em;
+          padding-bottom: 10px;
+        }
+
   </style>
 </head>
 <body>
@@ -27,22 +40,23 @@
         <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login1.php">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="smart_cardrequest.php">Smart Card Request</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Travel Info</a>
+        <a class="nav-link" href="travel_info.php">Travel Info</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Stations</a>
+        <a class="nav-link" href="stations.php">Stations</a>
       </li>
     </ul>
   </div>
 </nav>
 
-  <h2 class="padding">Contact Details</h2>
+  <section class="my-5"></section>
+  <h1 class="padding">Contact Us</h1>
   <div class="demo-content">
     <p><span class="glyphicon glyphicon-earphone"></span> Phone : +91 9663747003</p>
     <br>

@@ -12,9 +12,30 @@
   	h2.headertekst {
   text-align: center;
 	}
+	.demo-content{
+        	padding: 30px;
+        	font-size: 18px;
+        	
+        	min-height: 25px;
+        	background: #DCEAE5;
+        	margin-bottom: 10px;
+        }
+        .demo-content.bg-alt{
+        	background: #abb1b8;
+        }
+        .bs-example{
+        	margin: 100px;
+        }
+        .form-horizontal .control-label{
+        	padding-top: 100px;
+        }
+        .padding {
+        	padding-left: 15em;
+        	padding-bottom: 10px;
+        }
   </style>
 </head>
-<body>
+<body >
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="contact_us.php">Contact Us</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,24 +47,25 @@
         <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login1.php">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="smart_cardrequest.php">Smart Card Request</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Travel Info</a>
+        <a class="nav-link" href="travel_info.php">Travel Info</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="smart_cardrequest.php">Stations</a>
+        <a class="nav-link" href="stations.php">Stations</a>
       </li>
     </ul>
   </div>
 </nav>
-<section class="my-5"></section>
-<h2 class="headertekst">Smart Card Request Page</h2>
-<section class="my-5"></section>
+<section class="my-3"></section>
+<h2 class="padding">Smart Card Request Page</h2>
+
 	<div class="container">
+		<div class="demo-content">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<form id="contact-form" method="post" action="php/new_customer_request_card.php">
@@ -117,6 +139,7 @@
 				</form>
 			</div>
 		</div>
+	</div>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
